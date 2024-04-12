@@ -19,3 +19,12 @@
 
 # Go workspace file
 go.work
+
+.idea/
+.idea
+
+sshpf
+sshpf_config.yaml
+
+.DS_Store
+

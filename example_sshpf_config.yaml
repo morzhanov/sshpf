@@ -1,0 +1,30 @@
+default:
+  username: user
+  ip: 1.0.0.0
+  services:
+    - name: service1
+      addr: 1.0.0.0:8080
+      local_port: 8080
+    - name: service2
+      addr: 1.0.0.0:8090
+      port: 8090
+staging:
+  username: user
+  ip: 1.0.0.1
+  services:
+    - name: service1
+      addr: 1.0.0.0:8080
+      local_port: 8080
+    - name: service2
+      addr: 1.0.0.0:8090
+      port: 8090
+preprod:
+  username: user
+  ip: 1.0.0.2
+  services:
+    - name: service1
+      addr: 1.0.0.0:8080
+      local_port: 8080
+    - name: service2
+      addr: 1.0.0.0:8090
+      port: 8090
